@@ -1,0 +1,152 @@
+/*header*/
+.logo-img{
+    width: 60px;
+}
+
+.navbar{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   width: 700px;
+   justify-content: center;
+   align-items: center ;
+   list-style-type:none;
+   font-size: 50px;
+   width: 100%;
+}
+hr{
+    border-width:1px;
+    background: white;
+}
+.header-menu{
+  z-index: 99;
+display: flex ;
+justify-content: center;
+position: fixed;
+width:100%;
+}
+li{
+margin:0;
+display:inline;
+font-family: 'Squada One', cursive;
+font-size: 50px;
+}
+/*main*/
+.img-slide{
+    height: 900px;
+    padding-top: 80px;
+}
+body{
+    background-color: red ;
+    background-image: Linear-gradient(300deg, rgba(255,0,0,.8), rgba(255,0,0,0) 90.71%) , 
+    Linear-gradient(127deg, black, black 70.71%) ,
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%) ;
+    margin: 0;
+    width: 100%;
+}
+.background-img1{
+    background-image: url("./images/capture\ 1.PNG");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.view-btn{
+display: none;
+cursor: pointer;
+
+}
+.background-img1:hover .view-btn{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    background: #0c0c0c59;
+
+}
+.background-img2{
+    background-image: url("./images/Capture\ 2.PNG");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.background-img2:hover .view-btn{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    background: #0c0c0c59;
+
+}
+.background-img3{
+    background-image: url("./images/Capture\ 3.PNG");
+    height:250px;
+    background-size: cover;
+    cursor: pointer;
+}
+.background-img3:hover .view-btn{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    background: #0c0c0c59;
+
+}
+.viewmore-images{
+    margin: 60px 60px;
+    
+}
+.row{
+   margin-bottom:50px;
+  
+}
+h2{
+    text-align: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.viewmore-images{
+    margin: 30px 240px;
+}
+.viewmore{
+    display: flex;
+    justify-content: center;
+    color:rgb(54, 44, 184);
+    margin-left: 330px;
+    
+}
+.images{
+    width: 100%;
+    height: 850px;
+}
+/*footer*/
+.courses{
+    margin: 100px 200px;
+    margin-bottom: 5px;
+    margin-left: 300px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ytvid{
+    text-align: center;
+    width: 500px
+}
+.flesh{
+    font-size: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px 100px 500px;
+    
+}
+
+.bg-menu{
+    background: #f8f9fa;
+}

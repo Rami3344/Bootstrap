@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Courses</title>
+    <link rel="stylesheet" href="./courses.css">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        
+</head>
+<body>
+    <header class="header-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <img class="logo-img" src="https://gomycode.tn/images/section2GMCLogo.png">
+            <a class="navbar-brand" href="#">GoMyCode</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="./courses.HTML">Courses</a>
+                <a class="nav-item nav-link" href="./contact.HTML">contact</a>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="cover">
+            <h1 class="heading">Courses</h1>
+        </div>
+
+        <div class="viewmore-images">
+            <div class="row justify-content-md-center">
+                <div class="col-md-4 col-xs-12  background-img1">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 background-img2">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 background-img3">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-4 col-xs-12 background-img4">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 background-img5">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 background-img6">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-4 col-xs-4 background-img7">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4 background-img8">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4 background-img9">
+                    <div class="view-btn">
+                        <a href="#ex1" rel="modal:open"><button>View More</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Feedback</h2>
+        <div class="form">
+            <button onclick="makebold()" type="button" class="btn btn-primary">Make It Bold</button>
+            <button onclick="makeitalic()" type="button" class="btn btn-danger">Make It Italic</button>
+            <button onclick="makeunderline()" type="button" class="btn btn-warning">Make It Underlined</button>
+            <select id="color" onclick="changecolor()">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+            </select>
+            <select id="size" onchange="changesize ()">
+                <option>20px</option>
+                <option>30px</option>
+                <option>40px</option>
+            </select>
+            <select id="police" onchange="changepolice()">
+                <option>Arial</option>
+                <option>Verdana</option>
+                <option>Geneva</option>
+            </select>
+            <br>
+            <textarea class="text" id="mytext" cols="60" rows="6"></textarea>
+        </div>
+        <div id="ex1" class="modal">
+            <p>This is GoMyCode Track.<br>Each track has its own goal.<br>By adopting this track, you chose your own
+                goal.</p>
+            <a href="#" rel="modal:close">Close</a>
+        </div>
+    </main>
+</body>
+<script src="./courses.js"></script>
+</html>
+
